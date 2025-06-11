@@ -125,13 +125,13 @@ align-items: center;
 justify-content: center;
 gap: 10px;
 
-border: 2px solid #d9d9d9;
+border: 3px solid #ffffff;
 border-radius: 10px;
 padding: 10px 16px;
 cursor: pointer;
 
 background-color: transparent;
-color: #d9d9d9;
+color: #ffffff;
 font-size: 16px;
 font-weight: 600;
 transition: 0.3s ease;
@@ -140,8 +140,8 @@ pointer-events: auto;
 }
 
 .dropdown-toggle:hover {
-background-color: #d9d9d9;
-color: #262626;
+background-color: #ffffff;
+color: #333333;
 }
 
 .left-icon {
@@ -165,7 +165,7 @@ z-index: 1;
 max-height: 200px;
 overflow-y: auto;
 scrollbar-width: thin;
-scrollbar-color: #d9d9d9 #333333;
+scrollbar-color: #ffffff #100000;
 bottom: 100%;
 margin-bottom: 10px;
 }
@@ -175,7 +175,7 @@ width: 6px;
 }
 
 .dropdown-menu::-webkit-scrollbar-track {
-background: #333;
+background: #333333;
 border-radius: 10px;
 }
 
@@ -192,14 +192,14 @@ display: block;
 display: flex;
 align-items: center;
 gap: 10px;
-color: #fff;
+color: #ffffff;
 padding: 10px 16px;
 text-decoration: none;
 transition: 0.3s;
 }
 
 .dropdown-menu a:hover {
-background-color: #333;
+background-color: #333333;
 color: #d9d9d9;
 }
 
